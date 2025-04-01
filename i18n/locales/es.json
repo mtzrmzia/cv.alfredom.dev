@@ -68,5 +68,24 @@
   },
   "skills": {
     "title": "Habilidades"
+  },
+  "strengths": {
+    "title": "Competencias",
+    "technicalSkills": {
+      "title": "Habilidades técnicas",
+      "description": "Competente en tecnología moderna"
+    },
+    "communicationSkills": {
+      "title": "Habilidades de comunicación",
+      "description": "Capacidad para articular problemas técnicos."
+    },
+    "entrepreneurialSpirit": {
+      "title": "Espíritu de líder",
+      "description": "Dispuesto a asumir los riesgos de un extremo a otro"
+    },
+    "teamWork": {
+      "title": "Trabajo en equipo",
+      "description": "Capacidad para colaborar eficazmente con otros para lograr objetivos comunes"
+    }
   }
 }

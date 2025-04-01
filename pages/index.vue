@@ -12,6 +12,9 @@ defineOptions({
       <WorkExperience />
       <Education />
       <Skills />
+      <div class="grid sm:grid-cols-2 gap-8 print:gap-8 print:grid-cols-2">
+        <Strengths />
+      </div>
     </section>
   </main>
 </template>

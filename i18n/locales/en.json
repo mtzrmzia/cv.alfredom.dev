@@ -68,5 +68,24 @@
   },
   "skills": {
     "title": "Skills"
+  },
+  "strengths": {
+    "title": "Strengths",
+    "technicalSkills": {
+      "title": "Technical Skills",
+      "description": "Proficient in modern technology stack"
+    },
+    "communicationSkills": {
+      "title": "Communication Skills",
+      "description": "Ability to articulate technical problems"
+    },
+    "entrepreneurialSpirit": {
+      "title": "Entrepreneurial Spirit",
+      "description": "Willing to take end-to-end ownership"
+    },
+    "teamWork": {
+      "title": "Team work",
+      "description": "Ability to collaborate effectively with others to achieve common goals"
+    }
   }
 }
