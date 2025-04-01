@@ -20,11 +20,44 @@ export default defineNuxtConfig({
   modules: [
     // https://nuxt.com/modules/ui
     '@nuxt/ui',
+    // https://nuxt.com/modules/i18n
+    '@nuxtjs/i18n',
   ],
   css: ['~/assets/css/main.css'],
   colorMode: {
     preference: 'system',
     fallback: 'light',
     disableTransition: false,
+  },
+  i18n: {
+    lazy: false,
+    langDir: 'locales',
+    strategy: 'prefix_except_default',
+    locales: [
+      {
+        code: 'en',
+        language: 'en-US',
+        name: 'English',
+        file: 'en.json',
+        dir: 'ltr',
+      },
+      {
+        code: 'es',
+        language: 'es-MX',
+        name: 'Español',
+        file: 'es.json',
+        dir: 'ltr',
+      },
+    ],
+    defaultLocale: 'es',
+    detectBrowserLanguage: {
+      useCookie: false,
+      redirectOn: 'root',
+    },
+    vueI18n: './i18n.config.ts',
+    baseUrl: 'https://cv.alfredom.dev/',
+    bundle: {
+      optimizeTranslationDirective: false,
+    },
   },
 });
