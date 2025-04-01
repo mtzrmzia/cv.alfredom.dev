@@ -60,5 +60,10 @@
         "lapse": "2024 - Current"
       }
     }
+  },
+  "education": {
+    "title": "Education",
+    "school": "EPCA University",
+    "career": "Degree in Computer Systems Engineering"
   }
 }

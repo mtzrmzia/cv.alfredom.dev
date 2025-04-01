@@ -60,5 +60,10 @@
         "lapse": "2024 - Actual"
       }
     }
+  },
+  "education": {
+    "title": "Educación",
+    "school": "Universidad EPCA",
+    "career": "Ingeniería en Sistemas Computacionales"
   }
 }

@@ -12,6 +12,7 @@ const { t } = useI18n();
       <Intro />
       <About />
       <WorkExperience />
+      <Education />
     </section>
   </main>
 </template>
