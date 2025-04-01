@@ -45,12 +45,10 @@ useHead({
 <template>
   <UApp :locale="locales[locale]">
     <div
-      class="flex min-h-screen flex-col text-neutral-500 selection:bg-primary-300 selection:text-primary-900 text-pretty dark:text-neutral-400"
+      class="flex min-h-screen flex-col selection:bg-primary-300 selection:text-primary-900 text-pretty"
     >
-      <NuxtLayout>
-        <Navbar />
-        <NuxtPage />
-      </NuxtLayout>
+      <Navbar />
+      <NuxtPage />
     </div>
   </UApp>
 </template>

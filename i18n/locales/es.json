@@ -1,4 +1,10 @@
 {
+  "common": {
+    "label": {
+      "remote": "Remoto",
+      "mexico": "México"
+    }
+  },
   "meta": {
     "home": {
       "title": "My CV {'|'} Alfredo Martínez - Ingeniero FrontEnd",
@@ -21,10 +27,38 @@
   },
   "intro": {
     "summary": "Ingeniero FrontEnd enfocado en crear impresionantes productos digitales",
-    "location": "León, Guanajuato, Mexico (UTC-6)"
+    "location": "León, Mexico (UTC-6)"
   },
   "about": {
     "title": "Resumen",
     "text": "Mi trayectoria como ingeniero FrontEnd ha estado marcada por varias etapas exitosas de creación de productos desde cero. Al liderar equipos de forma eficaz, garantizo un espacio de trabajo donde los equipos puedan prosperar, lo que aumenta nuestra capacidad colectiva para crear productos impresionantes. Actualmente trabajo principalmente con TypeScript, Vue, Nuxt,TailwindCSS, Node.js, and Laravel. Desde hace más de 7 años estoy inmerso en colaboraciones remotas con empresas de todo el mundo."
+  },
+  "workExperience": {
+    "title": "Experiencia Laboral",
+    "works": {
+      "pemex": {
+        "description": "Desarrollo e implementación de una plataforma interna para gestión y administración de contratos y procesos de negocios. Tecnologías: Vue 3, Nuxt 3, TanStack Query, Vuetify, .NET"
+      },
+      "devsalsa": {
+        "description": "Líder de un equipo de 4 desarrolladores, participé en la migración de webpack a vite y en el diseño de un core personalizado para reutilizar componentes y código en todas las plataformas, implementé nuevas funciones. Tecnologías: Vue 3, TypeScript, Pinia, Cypress, Vitest"
+      },
+      "apithy": {
+        "description": "Desarrollo de una plataforma de E-Learning con soporte multi idioma, incluyendo procesamiento de pagos, mejoras en el sitio web principal para que funcione en todos los navegadores. Tecnologías: Vue, Nuxt, Vuex, TailwindCSS"
+      },
+      "vocces": {
+        "description": "Desarrollo e implementación de un SaaS multi idioma (articketing). Se inició el proyecto desde cero, implementando nuevas funcionalidades con un enfoque mobile first. Tecnologías: Vue, JavaScript, SASS, Laravel"
+      },
+      "freelance": {
+        "description": "En mi etapa como freelance, se ayudó en la transición digital de las pequeñas empresas mediante la implementación de sitios web, E-commerce y SaaS optimizados con SEO, aumentando así su presencia en el mercado online. Tecnologías: Vue, Nuxt, TailwindCSS, Laravel, PHP"
+      },
+      "bicho": {
+        "description": "Análisis y aplicación de principios de diseño para materializar las propuestas del equipo UX/UI. Desarrollo de  interacciones de usuario y gestión de la comunicación de datos con el servidor back-end mediante APIs, para asegurar una óptima experiencia de usuario en la plataforma web. Tecnologías: WordPress, CSS, Laravel, PHP"
+      }
+    },
+    "time": {
+      "pemex": {
+        "lapse": "2024 - Actual"
+      }
+    }
   }
 }

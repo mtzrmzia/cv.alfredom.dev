@@ -68,7 +68,7 @@ const socialLinks = [
           :to="link.to"
           target="_blank"
           color="neutral"
-          variant="ghost"
+          variant="outline"
         >
           <template #leading>
             <UIcon class="h-5 w-5" :name="link.icon" />
@@ -83,7 +83,11 @@ const socialLinks = [
     <span
       class="relative flex print:hidden shrink-0 overflow-hidden rounded-xl size-28"
     >
-      <NuxtImg src="/avatar/me.jpg" alt="Alfredo Martínez" />
+      <NuxtImg
+        src="/avatar/me.jpg"
+        alt="Alfredo Martínez"
+        class="pointer-events-none select-none"
+      />
     </span>
   </div>
 </template>

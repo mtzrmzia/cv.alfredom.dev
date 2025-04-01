@@ -1,4 +1,10 @@
 {
+  "common": {
+    "label": {
+      "remote": "Remote",
+      "mexico": "Mexico"
+    }
+  },
   "meta": {
     "home": {
       "title": "Mi CV {'|'} Alfredo Martínez - FrontEnd Engineer",
@@ -21,10 +27,38 @@
   },
   "intro": {
     "summary": "FrontEnd Engineer focused on creating stunning digital products",
-    "location": "León, Gto. México, UTC-6"
+    "location": "León, México UTC-6"
   },
   "about": {
     "title": "About",
     "text": "My journey as a FrontEnd Engineer has been marked by multiple successful transitions of products from the ground up. By leading teams effectively, I ensure a workspace where teams can flourish, adding to our collective ability to craft stunning products. Currently, I work mostly with TypeScript, Vue, Nuxt,TailwindCSS, Node.js, and Laravel. For over 7 years, I have been immersed in remote collaborations with companies around the world."
+  },
+  "workExperience": {
+    "title": "Work Experience",
+    "works": {
+      "pemex": {
+        "description": "Development and implementation of an internal platform for the management and administration of contracts and business processes. Technologies: Vue 3, Nuxt 3, TanStack Query, Vuetify, .NET\""
+      },
+      "devsalsa": {
+        "description": "Led 4 developers team, migrate from webpack to vite, crafted custom core to ship the same code and components to all platforms, implemented new features. Technologies: Vue 3, TypeScript, Pinia, Cypress, Vitest"
+      },
+      "apithy": {
+        "description": "Created a multilingual E-Learning platform with payment processing, worked on improving the main website so that it works in all browsers. Technologies: Vue, Nuxt, Vuex, TailwindCSS"
+      },
+      "vocces": {
+        "description": "Created a multilingual SaaS (articketing). Started with the boilerplate, implemented new features with mobile first approach. Technologies: Vue, JavaScript, SASS, Laravel"
+      },
+      "freelance": {
+        "description": "In my role as a freelancer, I facilitated small businesses' digital transition by implementing SEO-optimized websites, e-commerce, and SaaS, thereby augmenting their online market presence. Technologies: Vue, Nuxt, TailwindCSS, Laravel, PHP"
+      },
+      "bicho": {
+        "description": "I dedicated myself to the analysis and application of design principles to materialize the proposals of the UX/UI team. I have developed user interactions and managed data communication with the back-end server, to ensure an optimal user experience on the web platform. Technologies: WordPress, CSS, Laravel, PHP"
+      }
+    },
+    "time": {
+      "pemex": {
+        "lapse": "2024 - Current"
+      }
+    }
   }
 }
