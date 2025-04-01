@@ -87,5 +87,8 @@
       "title": "Team work",
       "description": "Ability to collaborate effectively with others to achieve common goals"
     }
+  },
+  "languages": {
+    "title": "Languages"
   }
 }

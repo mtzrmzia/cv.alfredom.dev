@@ -87,5 +87,8 @@
       "title": "Trabajo en equipo",
       "description": "Capacidad para colaborar eficazmente con otros para lograr objetivos comunes"
     }
+  },
+  "languages": {
+    "title": "Idiomas"
   }
 }
