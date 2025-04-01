@@ -32,14 +32,16 @@ const strengths = computed(() => {
 </script>
 <template>
   <section class="flex flex-col gap-y-3">
-    <h2 class="text-xl font-bold text-neutral-800 dark:text-neutral-200">
+    <h2
+      class="text-xl font-bold print:text-black text-neutral-800 dark:text-neutral-200"
+    >
       {{ t('strengths.title') }}
     </h2>
     <div v-for="strength in strengths" :key="strength.id" class="flex flex-col">
       <div class="flex flex-col space-y-1.5">
         <div class="flex items-center justify-between gap-x-2 text-base">
           <h3
-            class="font-semibold leading-none text-neutral-800 dark:text-neutral-200"
+            class="font-semibold leading-none print:text-black text-neutral-800 dark:text-neutral-200"
           >
             {{ strength.title }}
           </h3>

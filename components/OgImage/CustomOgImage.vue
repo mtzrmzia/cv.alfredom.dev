@@ -1,20 +1,20 @@
 <template>
   <div
-    class="bg-white px-24 py-20 font-sans text-black flex flex-col justify-between"
+    class="flex flex-col justify-between bg-white px-24 py-20 font-sans text-black"
     :style="dottedBg"
   >
     <img
       src="https://ik.imagekit.io/alfredom/avatar/me-dark.png"
       alt="avatar"
-      class="w-24 h-24 rounded-full object-cover"
+      class="h-24 w-24 rounded-full object-cover"
     />
     <div class="flex flex-col gap-2">
-      <h1 class="text-[64px] font-extrabold leading-tight">
+      <h1 class="font-extrabold leading-tight text-[64px]">
         {{ title }}
       </h1>
-      <p class="text-[32px] leading-snug">{{ description }} <br /></p>
+      <p class="leading-snug text-[32px]">{{ description }} <br /></p>
     </div>
-    <p class="text-[28px] font-mono text-black">cv.alfredom.dev</p>
+    <p class="font-mono text-black text-[28px]">cv.alfredom.dev</p>
   </div>
 </template>
 

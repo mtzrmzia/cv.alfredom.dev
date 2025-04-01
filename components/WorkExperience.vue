@@ -61,7 +61,9 @@ const experiences = computed((): ExperienceItem[] => {
 </script>
 <template>
   <section class="flex flex-col gap-y-3">
-    <h2 class="text-xl font-bold text-neutral-800 dark:text-neutral-200">
+    <h2
+      class="text-xl font-bold print:text-black text-neutral-800 dark:text-neutral-200"
+    >
       {{ t('workExperience.title') }}
     </h2>
     <WorkExperienceItem

@@ -23,11 +23,14 @@ defineProps({
           <ULink
             v-if="item.website"
             :to="item.website"
-            class="text-neutral-800 dark:text-neutral-200"
+            class="print:text-black text-neutral-800 dark:text-neutral-200"
           >
             {{ item.company }}
           </ULink>
-          <span v-else class="text-neutral-800 dark:text-neutral-200">
+          <span
+            v-else
+            class="print:text-black text-neutral-800 dark:text-neutral-200"
+          >
             {{ item.company }}
           </span>
           <UBadge color="neutral" variant="soft">

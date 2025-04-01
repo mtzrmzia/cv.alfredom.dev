@@ -20,16 +20,26 @@ const skills = [
   'Git',
   'Vercel',
 ];
+
+const configUI = {
+  base: 'print:text-black print:ring-1 print:ring-black',
+  label: 'print:text-black',
+  leadingIcon: 'print:text-black',
+  trailingIcon: 'print:text-black',
+};
 </script>
 <template>
   <section class="flex flex-col gap-y-3">
-    <h2 class="text-xl font-bold text-neutral-800 dark:text-neutral-200">
+    <h2
+      class="text-xl font-bold print:text-black text-neutral-800 dark:text-neutral-200"
+    >
       {{ t('skills.title') }}
     </h2>
     <div class="flex flex-wrap gap-1">
       <UBadge
         v-for="(skill, index) in skills"
         :key="index"
+        :ui="configUI"
         color="neutral"
         variant="outline"
       >

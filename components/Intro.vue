@@ -42,7 +42,9 @@ const socialLinks = [
 <template>
   <div class="flex items-center justify-between">
     <div class="flex-1 space-y-1.5">
-      <h1 class="text-2xl font-bold text-neutral-800 dark:text-neutral-200">
+      <h1
+        class="text-2xl font-bold print:text-black text-neutral-800 dark:text-neutral-200"
+      >
         Alfredo Martínez
       </h1>
       <p class="max-w-md font-mono text-sm">
@@ -50,7 +52,7 @@ const socialLinks = [
       </p>
       <p class="max-w-md items-center font-mono text-xs">
         <ULink
-          class="inline-flex items-center leading-none hover:underline"
+          class="inline-flex items-center leading-none print:text-black hover:underline"
           to="https://maps.apple.com/place?q=Le%C3%B3n&ll=21.1222267%2C-101.6632405&auid=5521045738737275844&lsp=7618&address=Le%C3%B3n%2C%20Gto.%2C%20M%C3%A9xico"
           target="_blank"
         >
