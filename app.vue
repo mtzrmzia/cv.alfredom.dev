@@ -45,7 +45,7 @@ useHead({
 <template>
   <UApp :locale="locales[locale]">
     <div
-      class="min-h-screen flex flex-col dark:text-neutral-200 text-neutral-800 selection:bg-primary-300 selection:text-primary-900"
+      class="flex min-h-screen flex-col text-neutral-800 selection:bg-primary-300 selection:text-primary-900 dark:text-neutral-200"
     >
       <NuxtLayout>
         <Navbar />

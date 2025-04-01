@@ -5,9 +5,9 @@ defineOptions({
 </script>
 
 <template>
-  <header class="flex h-16 items-center lg:px-8 px-4 sm:px-6">
+  <header class="flex print:hidden h-16 items-center px-4 sm:px-6 lg:px-8">
     <div
-      class="mx-auto w-full max-w-screen-lg flex items-center justify-end gap-2"
+      class="mx-auto flex w-full max-w-screen-lg items-center justify-end gap-2"
     >
       <ColorModeSwitch />
       <LangSwitch />

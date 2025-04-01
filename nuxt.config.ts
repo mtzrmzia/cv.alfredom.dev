@@ -21,6 +21,8 @@ export default defineNuxtConfig({
     '@nuxtjs/sitemap',
     // https://nuxt.com/modules/robots
     '@nuxtjs/robots',
+    // https://nuxt.com/modules/image
+    '@nuxt/image',
   ],
   css: ['~/assets/css/main.css'],
   colorMode: {
@@ -62,5 +64,11 @@ export default defineNuxtConfig({
   site: {
     url: 'https://cv.alfredom.dev/',
     name: 'Alfredo Martínez',
+  },
+  image: {
+    provider: 'imagekit',
+    imagekit: {
+      baseURL: process.env.IMAGEKIT_BASE_URL,
+    },
   },
 });

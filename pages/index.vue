@@ -7,7 +7,9 @@ const { t } = useI18n();
 </script>
 
 <template>
-  <main class="md:p-16 p-4 print:p-12">
-    {{ t('intro.summary') }}
+  <main class="p-4 print:p-12">
+    <section class="mx-auto w-full max-w-2xl space-y-8 print:space-y-6">
+      <Intro />
+    </section>
   </main>
 </template>
