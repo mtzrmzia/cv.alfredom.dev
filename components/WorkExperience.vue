@@ -1,16 +1,3 @@
-<template>
-  <section class="flex flex-col gap-y-3">
-    <h2 class="text-xl font-bold text-neutral-800 dark:text-neutral-200">
-      {{ t('workExperience.title') }}
-    </h2>
-    <WorkExperienceItem
-      v-for="item in experiences"
-      :key="item.company"
-      :item="item"
-    />
-  </section>
-</template>
-
 <script setup lang="ts">
 import { computed } from 'vue';
 import type { ExperienceItem } from '~/types/ExperienceItem.types';
@@ -72,3 +59,15 @@ const experiences = computed((): ExperienceItem[] => {
   ];
 });
 </script>
+<template>
+  <section class="flex flex-col gap-y-3">
+    <h2 class="text-xl font-bold text-neutral-800 dark:text-neutral-200">
+      {{ t('workExperience.title') }}
+    </h2>
+    <WorkExperienceItem
+      v-for="item in experiences"
+      :key="item.company"
+      :item="item"
+    />
+  </section>
+</template>

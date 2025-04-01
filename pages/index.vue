@@ -2,8 +2,6 @@
 defineOptions({
   name: 'Index',
 });
-
-const { t } = useI18n();
 </script>
 
 <template>
@@ -13,6 +11,7 @@ const { t } = useI18n();
       <About />
       <WorkExperience />
       <Education />
+      <Skills />
     </section>
   </main>
 </template>

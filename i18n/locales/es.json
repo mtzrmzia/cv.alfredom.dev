@@ -65,5 +65,8 @@
     "title": "Educación",
     "school": "Universidad EPCA",
     "career": "Ingeniería en Sistemas Computacionales"
+  },
+  "skills": {
+    "title": "Habilidades"
   }
 }

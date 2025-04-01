@@ -65,5 +65,8 @@
     "title": "Education",
     "school": "EPCA University",
     "career": "Degree in Computer Systems Engineering"
+  },
+  "skills": {
+    "title": "Skills"
   }
 }

@@ -1,3 +1,18 @@
+<script setup lang="ts">
+import type { PropType } from 'vue';
+import type { ExperienceItem } from '~/types/ExperienceItem.types';
+
+defineOptions({
+  name: 'WorkExperienceItem',
+});
+
+defineProps({
+  item: {
+    type: Object as PropType<ExperienceItem>,
+    required: true,
+  },
+});
+</script>
 <template>
   <div>
     <div class="flex flex-col space-y-1.5">
@@ -30,19 +45,3 @@
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-import type { PropType } from 'vue';
-import type { ExperienceItem } from '~/types/ExperienceItem.types';
-
-defineOptions({
-  name: 'WorkExperienceItem',
-});
-
-defineProps({
-  item: {
-    type: Object as PropType<ExperienceItem>,
-    required: true,
-  },
-});
-</script>

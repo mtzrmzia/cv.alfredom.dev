@@ -1,3 +1,10 @@
+<script setup lang="ts">
+defineOptions({
+  name: 'Education',
+});
+
+const { t } = useI18n();
+</script>
 <template>
   <section class="flex flex-col gap-y-3">
     <h2 class="text-xl font-bold text-neutral-800 dark:text-neutral-200">
@@ -20,11 +27,3 @@
     </div>
   </section>
 </template>
-
-<script setup lang="ts">
-defineOptions({
-  name: 'Education',
-});
-
-const { t } = useI18n();
-</script>
