@@ -65,7 +65,7 @@ export default defineNuxtConfig({
   },
   site: {
     url: 'https://cv.alfredom.dev/',
-    name: 'Alfredo Martínez',
+    name: 'Cv | Alfredo Martínez',
   },
   image: {
     provider: 'imagekit',
