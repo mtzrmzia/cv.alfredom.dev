@@ -4,6 +4,10 @@ defineOptions({
 });
 
 const { t } = useI18n();
+
+const printPage = () => {
+  window.print();
+};
 </script>
 
 <template>
@@ -13,6 +17,7 @@ const { t } = useI18n();
       size="md"
       color="neutral"
       variant="ghost"
+      @click="printPage"
     />
   </UTooltip>
 </template>
