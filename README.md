@@ -1,75 +1,24 @@
-# Nuxt Minimal Starter
+# Minimalist CV page - [cv.alfredom.dev](https://cv.alfredom.dev)
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This project is a minimalist, web-based CV inspired by the design
+of [Bartosz Jarocki](https://github.com/BartoszJarocki/cv), and rebuilt using modern web
+technologies: [Nuxt 3](https://nuxt.com/), [Nuxt UI](https://ui.nuxt.com/),
+and [Tailwind CSS v4](https://tailwindcss.com/).
 
-## Setup
+## Getting Started
 
-Make sure to install dependencies:
+To get started, install the project dependencies:
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
 # yarn
 yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+## Development
 
-Start the development server on `http://localhost:3000`:
+Start the local development server:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
 # yarn
 yarn dev
-
-# bun
-bun run dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
