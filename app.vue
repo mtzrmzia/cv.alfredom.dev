@@ -12,6 +12,13 @@ const dir = computed(
   () => unref(head).htmlAttrs?.dir as 'ltr' | 'rtl' | 'auto',
 );
 
+useSeoMeta({
+  title: t('meta.home.title'),
+  ogTitle: t('meta.home.ogTitle'),
+  description: t('meta.home.description'),
+  ogDescription: t('meta.home.ogDescription'),
+});
+
 useHead({
   htmlAttrs: {
     lang,

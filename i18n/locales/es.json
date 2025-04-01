@@ -1,4 +1,12 @@
 {
+  "meta": {
+    "home": {
+      "title": "My CV {'|'} Alfredo Martínez - Ingeniero FrontEnd",
+      "ogTitle": "Alfredo Martínez - Ingeniero FrontEnd | CV Digital",
+      "description": "CV minimalista, fácil de imprimir y diseñado para destacar como ingeniero frontend.",
+      "ogDescription": "Conoce el trabajo y perfil de Alfredo Martínez, ingeniero frontend enfocado en crear experiencias web fluidas y centradas en el usuario."
+    }
+  },
   "intro": {
     "summary": "Ingeniero FrontEnd enfocado en crear impresionantes productos digitales"
   }
