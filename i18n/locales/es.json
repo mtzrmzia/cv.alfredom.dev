@@ -7,6 +7,18 @@
       "ogDescription": "Conoce el trabajo y perfil de Alfredo Martínez, ingeniero frontend enfocado en crear experiencias web fluidas y centradas en el usuario."
     }
   },
+  "navbar": {
+    "langSwitch": {
+      "tooltipText": "Read in English"
+    },
+    "colorModeSwitch": {
+      "tooltipTextLight": "Cambiar a claro",
+      "tooltipTextDark": "Cambiar a oscuro"
+    },
+    "printButton": {
+      "tooltipText": "Imprimir"
+    }
+  },
   "intro": {
     "summary": "Ingeniero FrontEnd enfocado en crear impresionantes productos digitales"
   }

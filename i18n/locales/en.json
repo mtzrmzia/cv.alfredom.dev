@@ -7,6 +7,18 @@
       "ogDescription": "Discover the work and profile of Alfredo Martínez, a frontend engineer passionate about creating seamless, user-centered web experiences."
     }
   },
+  "navbar": {
+    "langSwitch": {
+      "tooltipText": "Leer en Español"
+    },
+    "colorModeSwitch": {
+      "tooltipTextLight": "Switch to light",
+      "tooltipTextDark": "Switch to dark"
+    },
+    "printButton": {
+      "tooltipText": "Print"
+    }
+  },
   "intro": {
     "summary": "FrontEnd Engineer focused on creating stunning digital products"
   }

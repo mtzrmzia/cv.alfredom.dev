@@ -653,6 +653,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@iconify-json/ph@npm:^1.2.2":
+  version: 1.2.2
+  resolution: "@iconify-json/ph@npm:1.2.2"
+  dependencies:
+    "@iconify/types": "npm:*"
+  checksum: 10c0/a8e3a276364a125bdaefab07ae78425113baa34c11b22b4c33ab8ac01fd13c5ee8afccbb26f1a1aaaabd1681ed68dc6eb791df2d41d18724cab1362c61d3cd37
+  languageName: node
+  linkType: hard
+
 "@iconify/collections@npm:^1.0.526":
   version: 1.0.533
   resolution: "@iconify/collections@npm:1.0.533"
@@ -4324,6 +4333,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "cv.alfredom.dev@workspace:."
   dependencies:
+    "@iconify-json/ph": "npm:^1.2.2"
     "@nuxt/ui": "npm:^3.0.2"
     "@nuxtjs/eslint-config-typescript": "npm:^12.1.0"
     "@nuxtjs/i18n": "npm:9.4.0"
@@ -4683,9 +4693,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.73":
-  version: 1.5.128
-  resolution: "electron-to-chromium@npm:1.5.128"
-  checksum: 10c0/3c64ec24a8aff8e9954e99366aebdf41c0a5d0e48a498435b68d4deddd938584af53c1b176edd166285cfb9dcd407d4897184208a0369d1bb97e21d8daee8bc2
+  version: 1.5.129
+  resolution: "electron-to-chromium@npm:1.5.129"
+  checksum: 10c0/b497cf5fb53c0b7eb9de39ad529371f934c71eca35091bd36e68874fe02f291c6ef31d5f6c7b0cf13d73911ffea2927276178642a7249684609d17a99af061ff
   languageName: node
   linkType: hard
 
