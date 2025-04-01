@@ -22,5 +22,9 @@
   "intro": {
     "summary": "Ingeniero FrontEnd enfocado en crear impresionantes productos digitales",
     "location": "León, Guanajuato, Mexico (UTC-6)"
+  },
+  "about": {
+    "title": "Resumen",
+    "text": "Mi trayectoria como ingeniero FrontEnd ha estado marcada por varias etapas exitosas de creación de productos desde cero. Al liderar equipos de forma eficaz, garantizo un espacio de trabajo donde los equipos puedan prosperar, lo que aumenta nuestra capacidad colectiva para crear productos impresionantes. Actualmente trabajo principalmente con TypeScript, Vue, Nuxt,TailwindCSS, Node.js, and Laravel. Desde hace más de 7 años estoy inmerso en colaboraciones remotas con empresas de todo el mundo."
   }
 }

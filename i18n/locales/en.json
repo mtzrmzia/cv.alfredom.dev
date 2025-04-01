@@ -22,5 +22,9 @@
   "intro": {
     "summary": "FrontEnd Engineer focused on creating stunning digital products",
     "location": "León, Gto. México, UTC-6"
+  },
+  "about": {
+    "title": "About",
+    "text": "My journey as a FrontEnd Engineer has been marked by multiple successful transitions of products from the ground up. By leading teams effectively, I ensure a workspace where teams can flourish, adding to our collective ability to craft stunning products. Currently, I work mostly with TypeScript, Vue, Nuxt,TailwindCSS, Node.js, and Laravel. For over 7 years, I have been immersed in remote collaborations with companies around the world."
   }
 }
