@@ -22,6 +22,10 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     // https://nuxt.com/modules/i18n
     '@nuxtjs/i18n',
+    // https://nuxt.com/modules/sitemap
+    '@nuxtjs/sitemap',
+    // https://nuxt.com/modules/robots
+    '@nuxtjs/robots',
   ],
   css: ['~/assets/css/main.css'],
   colorMode: {
@@ -59,5 +63,9 @@ export default defineNuxtConfig({
     bundle: {
       optimizeTranslationDirective: false,
     },
+  },
+  site: {
+    url: 'https://cv.alfredom.dev/',
+    name: 'Alfredo Martínez',
   },
 });
