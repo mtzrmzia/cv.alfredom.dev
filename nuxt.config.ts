@@ -17,6 +17,8 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     // https://nuxt.com/modules/i18n
     '@nuxtjs/i18n',
+    // https://nuxt.com/modules/og-image
+    'nuxt-og-image',
     // https://nuxt.com/modules/sitemap
     '@nuxtjs/sitemap',
     // https://nuxt.com/modules/robots

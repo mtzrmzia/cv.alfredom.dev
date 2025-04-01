@@ -20,6 +20,7 @@
     "@nuxtjs/robots": "5.2.8",
     "@nuxtjs/sitemap": "7.2.9",
     "nuxt": "^3.16.1",
+    "nuxt-og-image": "^5.1.1",
     "vue": "latest"
   },
   "devDependencies": {

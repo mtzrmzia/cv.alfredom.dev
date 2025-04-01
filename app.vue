@@ -13,10 +13,10 @@ const dir = computed(
 );
 
 useSeoMeta({
-  title: t('meta.home.title'),
-  ogTitle: t('meta.home.ogTitle'),
-  description: t('meta.home.description'),
-  ogDescription: t('meta.home.ogDescription'),
+  title: t('meta.title'),
+  ogTitle: t('meta.ogTitle'),
+  description: t('meta.description'),
+  ogDescription: t('meta.ogDescription'),
 });
 
 useHead({
@@ -39,6 +39,10 @@ useHead({
       href: '/favicon.png',
     },
   ],
+});
+defineOgImageComponent('CustomOgImage', {
+  title: t('meta.title'),
+  description: t('meta.description'),
 });
 </script>
 
