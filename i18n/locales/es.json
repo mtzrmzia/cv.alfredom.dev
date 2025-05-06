@@ -25,11 +25,11 @@
   },
   "intro": {
     "summary": "Ingeniero FrontEnd enfocado en crear impresionantes productos digitales",
-    "location": "León, Mexico (UTC-6)"
+    "location": "León, México (UTC-6)"
   },
   "about": {
     "title": "Resumen",
-    "text": "Mi trayectoria como ingeniero FrontEnd ha estado marcada por varias etapas exitosas de creación de productos desde cero. Al liderar equipos de forma eficaz, garantizo un espacio de trabajo donde los equipos puedan prosperar, lo que aumenta nuestra capacidad colectiva para crear productos impresionantes. Actualmente trabajo principalmente con TypeScript, Vue, Nuxt,TailwindCSS, Node.js, and Laravel. Desde hace más de 7 años estoy inmerso en colaboraciones remotas con empresas de todo el mundo."
+    "text": "Mi trayectoria como ingeniero FrontEnd ha estado marcada por varias etapas exitosas de creación de productos desde cero. Al liderar equipos de forma eficaz, garantizo un espacio de trabajo donde los equipos puedan prosperar, lo que aumenta nuestra capacidad colectiva para crear productos impresionantes. Actualmente trabajo principalmente con TypeScript, Vue, Nuxt,TailwindCSS, Node.js, y Laravel. Desde hace más de 7 años estoy inmerso en colaboraciones remotas con empresas de todo el mundo."
   },
   "workExperience": {
     "title": "Experiencia Laboral",
@@ -75,11 +75,11 @@
     },
     "communicationSkills": {
       "title": "Habilidades de comunicación",
-      "description": "Capacidad para articular problemas técnicos."
+      "description": "Capacidad para comunicar problemas técnicos"
     },
     "entrepreneurialSpirit": {
-      "title": "Espíritu de líder",
-      "description": "Dispuesto a asumir los riesgos de un extremo a otro"
+      "title": "Espíritu emprendedor",
+      "description": "Disposición para asumir responsabilidad total de los proyectos"
     },
     "teamWork": {
       "title": "Trabajo en equipo",
