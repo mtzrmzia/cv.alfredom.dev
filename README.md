@@ -2,7 +2,7 @@
 
 This project is a minimalist, web-based CV inspired by the design
 of [Bartosz Jarocki](https://github.com/BartoszJarocki/cv), and rebuilt using modern web
-technologies: [Nuxt 3](https://nuxt.com/), [Nuxt UI](https://ui.nuxt.com/),
+technologies: [Nuxt 4](https://nuxt.com/), [Nuxt UI](https://ui.nuxt.com/),
 and [Tailwind CSS v4](https://tailwindcss.com/).
 
 ## Getting Started
