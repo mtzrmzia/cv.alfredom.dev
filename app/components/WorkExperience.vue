@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue';
-import type { ExperienceItem } from '~/types/ExperienceItem.types';
+import type { ExperienceItem } from '~~/types/ExperienceItem.types';
 
 defineOptions({
   name: 'WorkExperience',

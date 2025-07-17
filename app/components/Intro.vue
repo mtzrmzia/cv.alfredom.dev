@@ -86,7 +86,7 @@ const socialLinks = [
       class="relative flex print:hidden shrink-0 overflow-hidden rounded-xl size-28"
     >
       <NuxtImg
-        src="/avatar/me.jpg"
+        src="/avatar/me_profile.png"
         alt="Alfredo Martínez"
         class="pointer-events-none select-none"
       />

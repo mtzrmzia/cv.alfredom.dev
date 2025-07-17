@@ -1,7 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
-  ssr: true,
   app: {
     head: {
       bodyAttrs: {
@@ -10,11 +9,15 @@ export default defineNuxtConfig({
     },
   },
   devtools: {
-    enabled: true,
+    enabled: false,
   },
   modules: [
+    // https://nuxt.com/modules/eslint
+    '@nuxt/eslint',
     // https://nuxt.com/modules/ui
     '@nuxt/ui',
+    // https://nuxt.com/modules/image
+    '@nuxt/image',
     // https://nuxt.com/modules/i18n
     '@nuxtjs/i18n',
     // https://nuxt.com/modules/og-image
@@ -23,8 +26,6 @@ export default defineNuxtConfig({
     '@nuxtjs/sitemap',
     // https://nuxt.com/modules/robots
     '@nuxtjs/robots',
-    // https://nuxt.com/modules/image
-    '@nuxt/image',
   ],
   css: ['~/assets/css/main.css'],
   colorMode: {
@@ -58,19 +59,19 @@ export default defineNuxtConfig({
       redirectOn: 'root',
     },
     vueI18n: './i18n.config.ts',
-    baseUrl: 'https://cv.alfredom.dev/',
+    baseUrl: process.env.SITE_URL,
     bundle: {
       optimizeTranslationDirective: false,
     },
   },
   site: {
-    url: 'https://cv.alfredom.dev/',
+    url: process.env.SITE_URL,
     name: 'Cv | Alfredo Martínez',
   },
   image: {
     provider: 'imagekit',
     imagekit: {
-      baseURL: process.env.IMAGEKIT_BASE_URL,
+      baseURL: process.env.IMAGEKIT_URL,
     },
   },
 });
