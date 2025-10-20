@@ -31,11 +31,6 @@ const socialLinks = [
     icon: 'ph-linkedin-logo-duotone',
     to: 'https://www.linkedin.com/in/mtzrmzia/',
   },
-  {
-    id: 'twitter',
-    icon: 'fa6-brands-x-twitter',
-    to: 'https://x.com/mtzrmzia',
-  },
 ];
 </script>
 

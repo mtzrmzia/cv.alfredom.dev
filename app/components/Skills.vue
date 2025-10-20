@@ -19,6 +19,8 @@ const skills = [
   'PHP/Laravel',
   'Git',
   'Vercel',
+  'Shopify',
+  'Salesforce',
 ];
 
 const configUI = {

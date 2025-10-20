@@ -2,6 +2,7 @@
   "common": {
     "label": {
       "remote": "Remoto",
+      "hybrid": "Hibrido",
       "mexico": "México"
     }
   },
@@ -29,11 +30,14 @@
   },
   "about": {
     "title": "Resumen",
-    "text": "Mi trayectoria como ingeniero FrontEnd ha estado marcada por varias etapas exitosas de creación de productos desde cero. Al liderar equipos de forma eficaz, garantizo un espacio de trabajo donde los equipos puedan prosperar, lo que aumenta nuestra capacidad colectiva para crear productos impresionantes. Actualmente trabajo principalmente con TypeScript, Vue, Nuxt,TailwindCSS, Node.js, y Laravel. Desde hace más de 7 años estoy inmerso en colaboraciones remotas con empresas de todo el mundo."
+    "text": "Mi trayectoria como ingeniero FrontEnd ha estado marcada por varias etapas exitosas de creación de productos desde cero. Al liderar equipos de forma eficaz, garantizo un espacio de trabajo donde los equipos puedan prosperar, lo que aumenta nuestra capacidad colectiva para crear productos impresionantes. Actualmente trabajo principalmente con TypeScript, Vue, Nuxt,TailwindCSS, Node.js, y Laravel. Desde hace más de 9 años estoy inmerso en colaboraciones remotas con empresas de todo el mundo."
   },
   "workExperience": {
     "title": "Experiencia Laboral",
     "works": {
+      "charly": {
+        "description": "Desarrollo e implementación de soluciones para soporte y modernización de sistemas legacy, mantenimiento de tiendas en línea y migraciones a Shopify. Tecnologías: Laravel, JavaScript, Salesforce, Shopify"
+      },
       "pemex": {
         "description": "Desarrollo e implementación de una plataforma interna para gestión y administración de contratos y procesos de negocios. Tecnologías: Vue 3, Nuxt 3, TanStack Query, Vuetify, .NET"
       },
@@ -54,8 +58,8 @@
       }
     },
     "time": {
-      "pemex": {
-        "lapse": "2024 - Actual"
+      "charly": {
+        "lapse": "2025 - Actual"
       }
     }
   },

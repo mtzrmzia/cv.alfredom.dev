@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     },
   },
   devtools: {
-    enabled: false,
+    enabled: true,
   },
   modules: [
     // https://nuxt.com/modules/eslint

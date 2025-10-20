@@ -11,11 +11,19 @@ const { t } = useI18n();
 const experiences = computed((): ExperienceItem[] => {
   return [
     {
+      company: 'Charly',
+      website: 'https://www.charly.com',
+      location: t('common.label.hybrid'),
+      time: t('workExperience.time.charly.lapse'),
+      position: 'FrontEnd Web Engineer',
+      description: t('workExperience.works.charly.description'),
+    },
+    {
       company: 'PEMEX',
       website: 'https://www.pemex.com',
       location: t('common.label.mexico'),
       position: 'Senior FrontEnd Developer',
-      time: t('workExperience.time.pemex.lapse'),
+      time: '2024 - 2025',
       description: t('workExperience.works.pemex.description'),
     },
     {
