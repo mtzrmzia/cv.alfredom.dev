@@ -16,6 +16,7 @@ const experiences = computed((): ExperienceItem[] => {
       location: t('common.label.hybrid'),
       time: t('workExperience.time.charly.lapse'),
       position: 'FrontEnd Web Engineer',
+      time: '2025 - 2026',
       description: t('workExperience.works.charly.description'),
     },
     {

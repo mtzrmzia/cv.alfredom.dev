@@ -26,6 +26,8 @@ export default defineNuxtConfig({
     '@nuxtjs/sitemap',
     // https://nuxt.com/modules/robots
     '@nuxtjs/robots',
+    // https://nuxt.com/modules/fonts
+    '@nuxt/fonts',
   ],
   css: ['~/assets/css/main.css'],
   colorMode: {
@@ -33,8 +35,21 @@ export default defineNuxtConfig({
     fallback: 'light',
     disableTransition: false,
   },
+  fonts: {
+    families: [
+      {
+        name: 'Inter',
+        weights: [100, 200, 300, 400, 500, 600, 700, 800, 900],
+        global: true,
+      },
+      {
+        name: 'Geist Mono',
+        weights: [100, 200, 300, 400, 500, 600, 700, 800, 900],
+        global: true,
+      },
+    ],
+  },
   i18n: {
-    lazy: false,
     langDir: 'locales',
     strategy: 'prefix_except_default',
     locales: [
@@ -60,9 +75,6 @@ export default defineNuxtConfig({
     },
     vueI18n: './i18n.config.ts',
     baseUrl: process.env.SITE_URL,
-    bundle: {
-      optimizeTranslationDirective: false,
-    },
   },
   site: {
     url: process.env.SITE_URL,

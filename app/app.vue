@@ -36,11 +36,12 @@ useHead({
       rel: 'icon',
       type: 'image/png',
       sizes: '32x32',
-      href: '/favicon.png',
+      href: '/favicon.jpg',
     },
   ],
 });
-defineOgImageComponent('CustomOgImage', {
+
+defineOgImage('CustomOgImage', {
   title: t('meta.title'),
   description: t('meta.description'),
 });

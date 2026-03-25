@@ -1,6 +1,7 @@
 <template>
   <div
-    class="flex flex-col justify-between bg-white px-24 py-20 font-sans text-black"
+    class="flex flex-col justify-between bg-white px-24 py-20"
+    style="font-family: 'Geist Mono', sans-serif"
   >
     <img
       src="https://ik.imagekit.io/alfredom/avatar/me-dark.png"
@@ -8,12 +9,12 @@
       class="h-24 w-24 rounded-full object-cover"
     />
     <div class="flex flex-col gap-2">
-      <h1 class="font-extrabold leading-tight text-[64px]">
+      <h1 class="leading-tight text-[64px]" style="font-weight: 800">
         {{ title }}
       </h1>
       <p class="leading-snug text-[32px]">{{ description }} <br /></p>
     </div>
-    <p class="font-mono text-black text-[28px]">cv.alfredom.dev</p>
+    <p class="text-black text-[28px]">cv.alfredom.dev</p>
   </div>
 </template>
 

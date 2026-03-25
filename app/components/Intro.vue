@@ -14,7 +14,7 @@ const socialLinks = [
   {
     id: 'phone',
     icon: 'ph-phone-duotone',
-    to: 'tel:+524776462056',
+    to: 'tel:+524795053331',
   },
   {
     id: 'website',
@@ -74,14 +74,14 @@ const socialLinks = [
       </div>
       <div class="print:flex hidden flex-col gap-x-1 font-mono text-sm">
         <span class="underline">hello@alfredom.dev</span>
-        <span class="underline"> +524776462056 </span>
+        <span class="underline"> +524795053331 </span>
       </div>
     </div>
     <span
       class="relative flex print:hidden shrink-0 overflow-hidden rounded-xl size-28"
     >
       <NuxtImg
-        src="/avatar/me_profile.png"
+        src="/avatar/me_profile.jpg"
         alt="Alfredo Martínez"
         class="pointer-events-none select-none"
       />
