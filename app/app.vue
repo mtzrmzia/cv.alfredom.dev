@@ -2,10 +2,7 @@
 import * as locales from '@nuxt/ui/locale';
 
 const { t, locale } = useI18n();
-
-const head = useLocaleHead({
-  key: 'id',
-});
+const head = useLocaleHead();
 
 const lang = computed(() => unref(head).htmlAttrs?.lang);
 const dir = computed(
@@ -17,6 +14,9 @@ useSeoMeta({
   ogTitle: t('meta.ogTitle'),
   description: t('meta.description'),
   ogDescription: t('meta.ogDescription'),
+  ogUrl: 'https://cv.alfredom.dev/',
+  ogType: 'website',
+  ogSiteName: 'cv.alfredom.dev',
 });
 
 useHead({
